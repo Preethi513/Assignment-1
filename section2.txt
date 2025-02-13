@@ -1,0 +1,16 @@
+1) git stash
+2) git pull origin main
+3) Staging area 
+
+4) 
+a) Fetch the latest changes from the main branch and update the local repository.
+Create a new branch bugfix/missing-button and switch to it for fixing an issue.
+
+b) Stage the changes made to button.js.
+Commit the fix with a meaningful message.
+
+c) Switch back to the main branch.
+Ensure main is up-to-date with remote changes.
+Merge bugfix/missing-button into main using a non-fast-forward merge, preserving the branch history.
+
+d) Push the updated main branch to the remote repository.
